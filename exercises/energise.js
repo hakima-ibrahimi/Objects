@@ -11,4 +11,12 @@ let spaceship = {
   homePlanet : 'Earth'
 };
 
+const greenEnergy = (obj) => {
+  obj["Turbo Fuel"] = 'avocado oil'
+   
+  }
+  console.log(obj)
+
 // Write your code below
+greenEnergy(spaceship)
+console.log(spaceship)

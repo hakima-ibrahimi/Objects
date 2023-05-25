@@ -34,3 +34,9 @@ let spaceship = {
 }; 
 
 // Write your code below
+for (let role in spaceship.crew) {
+    console.log(`${role}: ${spaceship.crew[role].name}`);
+  }
+  for (let role in spaceship.crew) {
+    console.log(`${spaceship.crew[role].name}: ${spaceship.crew[role].degree}`);
+  }

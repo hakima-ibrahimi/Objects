@@ -13,4 +13,5 @@ let spaceship = {
   flightPath: ['Venus', 'Mars', 'Saturn']
 };
 
+console.log('hello')
 // Write your code below

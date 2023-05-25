@@ -11,6 +11,8 @@ Make sure to use bracket and dot notation to get the passenger object through ne
 */
 
 
+
+
 let spaceship = {
   passengers: [{name: "Dan"}],
   telescope: {
@@ -41,3 +43,8 @@ let spaceship = {
 }; 
 
 //Youre code goes here
+let capFave = spaceship.crew.captain['favorite_foods'][0]   
+  
+ 
+spaceship.passengers = ([{name: "hak"},{name: "ima"}])
+console.log(spaceship.passengers)
